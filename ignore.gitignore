@@ -1,0 +1,55 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+*.env
+*.venv
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Unit test / coverage reports
+coverage.xml
+*.cover
+.hypothesis/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# CSV and data files
+*.csv
+*.json
+*.parquet
+
+# Local environment settings
+*.env
+*.DS_Store
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore IDE settings
+.idea/
+
+# Ignore Mac-specific files
+*.DS_Store
+
+# Ignore compiled object files
+*.o
+*.obj
