@@ -1,16 +1,15 @@
 import os
 import tarfile
-
-import matplotlib.pyplot as plt  # type: ignore
+import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-from scipy.stats import randint  # type: ignore
-from six.moves import urllib  # type: ignore
-from sklearn.ensemble import RandomForestRegressor  # type: ignore
-from sklearn.impute import SimpleImputer  # type: ignore
-from sklearn.linear_model import LinearRegression  # type: ignore
-from sklearn.metrics import mean_absolute_error, mean_squared_error  # type: ignore
-from sklearn.model_selection import (  # type: ignore
+from scipy.stats import randint
+from six.moves import urllib
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.impute import SimpleImputer
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import mean_absolute_error, mean_squared_error
+from sklearn.model_selection import (
     GridSearchCV,
     RandomizedSearchCV,
     StratifiedShuffleSplit,
@@ -205,4 +204,6 @@ X_test_prepared = X_test_prepared.join(pd.get_dummies(X_test_cat, drop_first=Tru
 final_predictions = final_model.predict(X_test_prepared)
 final_mse = mean_squared_error(y_test, final_predictions)
 final_rmse = np.sqrt(final_mse)
+
 print("Final RMSE on test set:", final_rmse)
+
