@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/gowtham.kumaresa/Downloads/mle-dev/Assignment_3.2/mlruns/0/4ef5c119d406414ba663f4de19c40579/artifacts
+end_time: 1727270834379
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4ef5c119d406414ba663f4de19c40579
+run_name: data_ingestion
+run_uuid: 4ef5c119d406414ba663f4de19c40579
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727270834316
+status: 4
+tags: []
+user_id: gowtham.kumaresa
