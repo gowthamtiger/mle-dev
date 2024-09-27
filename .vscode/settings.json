@@ -1,0 +1,9 @@
+{
+    "python.pythonPath": "C:/Users/gowtham.kumaresa/AppData/Local/anaconda3/envs/mle-dev/python.exe",
+    "editor.formatOnSave": true,
+    "python.sortImports.onSave": true,
+    "python.formatting.blackArgs": [
+        "--line-length",
+        "88"
+    ]
+}

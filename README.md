@@ -1,8 +1,20 @@
-# Housing Price Prediction Project
 
-## Overview
 
-This project involves building a machine learning model to predict housing prices based on various features such as geographical location, housing age, and other socioeconomic indicators. The project is structured into several key components: data ingestion, model training, scoring, and documentation generation.
+# Median housing value prediction
+
+The housing data can be downloaded from https://raw.githubusercontent.com/ageron/handson-ml/master/. The script has codes to download the data. We have modelled the median house value on given housing data. 
+
+The following techniques have been used: 
+
+ - Linear regression
+ - Decision Tree
+ - Random Forest
+
+## Steps performed
+ - We prepare and clean the data. We check and impute for missing values.
+ - Features are generated and the variables are checked for correlation.
+ - Multiple sampling techinuqies are evaluated. The data set is split into train and test.
+ - All the above said modelling techniques are tried and evaluated. The final metric used to evaluate is mean squared error.
 
 ## Project Structure
 
@@ -23,4 +35,11 @@ This project involves building a machine learning model to predict housing price
 
 ## run python files and test it
 
+## To excute the script
+python < scriptname.py >
+
 ## Document it using Sphinx 
+
+
+
+
